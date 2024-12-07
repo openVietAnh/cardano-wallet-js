@@ -1,11 +1,10 @@
-import { NativeScript } from "@emurgo/cardano-serialization-lib-nodejs";
+import { NativeScript } from "@emurgo/cardano-serialization-lib-asmjs";
 import { Bip32KeyPair } from "./bip32-keypair.model";
 
 export interface Script {
-    root?: NativeScript;
-    scripts: Script[];
-    keyHash?: string;
-    keyPair?: Bip32KeyPair; 
-    slot?: number;
-    
+  root?: NativeScript;
+  scripts: Script[];
+  keyHash?: string;
+  keyPair?: Bip32KeyPair;
+  slot?: number;
 }

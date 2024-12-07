@@ -9,4 +9,4 @@ export * from "./utils";
 export * from "./wallet-server";
 export * from "./models";
 export * from "./config";
-export * from "@emurgo/cardano-serialization-lib-nodejs";
+export * from "@emurgo/cardano-serialization-lib-asmjs";
